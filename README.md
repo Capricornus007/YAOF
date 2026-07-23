@@ -12,9 +12,3 @@
 - 🌐 **多語言支援**：支援跟隨系統、繁體中文、簡體中文、English、日本語。
 - 🔍 **多來源介面預留**：支援 GitHub, GitLab, F-Droid, Codeberg, IzzyOnDroid 及 Direct URL 解析結構。
 - ⚙️ **架構過濾**：支援根據 CPU 架構 (如 `arm64-v8a`) 自動篩選 APK。
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
