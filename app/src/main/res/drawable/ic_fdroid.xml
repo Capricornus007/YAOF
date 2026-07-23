@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- F-Droid: simplified shield -->
+    <path
+        android:fillColor="#FF1976D2"
+        android:pathData="M12,2L3,7v5c0,5.2 3.8,10.1 9,10 5.2,0.1 9,-4.8 9,-10V7L12,2zM16.5,9.5l-3.2,6.5h-2.5L7.5,9.5h2.5l2,4.3 2,-4.3h2.5z" />
+</vector>

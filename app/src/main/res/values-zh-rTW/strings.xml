@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YAOF</string>
+
+    <!-- Top Bar Titles -->
+    <string name="title_tracked">應用程式</string>
+    <string name="title_add_source">新增應用程式</string>
+    <string name="title_settings">設定</string>
+
+    <!-- 更新檢查器 UI -->
+    <string name="label_repo_input">owner/repo</string>
+    <string name="btn_check_update">檢查更新</string>
+    <string name="btn_add_source">添加 / 解析來源</string>
+    <string name="btn_add_to_tracking">加入追蹤</string>
+    <string name="add_source_placeholder">例如：owner/repo 或貼上 URL</string>
+
+    <!-- 導覽頁籤 -->
+    <string name="tab_app_list">已追蹤</string>
+    <string name="tab_add_source">新增</string>
+    <string name="tab_settings">設定</string>
+
+    <!-- 已追蹤應用 -->
+    <string name="app_list_empty">尚無已追蹤的 App。\n請前往「新增」頁籤搜尋。</string>
+    <string name="search_hint">搜尋應用…</string>
+    <string name="delete_dialog_title">移除追蹤</string>
+    <string name="delete_dialog_message">確定要停止追蹤 %s 嗎？</string>
+    <string name="delete_confirm">移除</string>
+    <string name="delete_cancel">取消</string>
+    <string name="batch_selected_count">已選取 %d 項</string>
+    <string name="batch_delete_message">確定要刪除 %d 個應用嗎？</string>
+    <string name="action_select_all">全選</string>
+    <string name="action_delete">刪除</string>
+
+    <!-- 狀態訊息 -->
+    <string name="msg_querying">正在查詢 %s…</string>
+    <string name="error_invalid_format">請輸入正確格式：owner/repo</string>
+    <string name="error_unknown">未知錯誤</string>
+    <string name="error_no_release">此儲存庫無任何發行版本</string>
+
+    <!-- 結果卡片 -->
+    <string name="label_version">🏷️ 版本</string>
+    <string name="label_apk_download">📦 APK 下載</string>
+    <string name="label_file_size">檔案大小：%s MB</string>
+    <string name="warn_no_apk">⚠️ 無 APK 資產</string>
+    <string name="label_changelog">📝 更新內容</string>
+
+    <!-- 剪貼簿 -->
+    <string name="clipboard_github_detected">偵測到剪貼簿中有 GitHub 網址，是否填入？</string>
+    <string name="clipboard_action_fill">填入</string>
+    <string name="clipboard_action_dismiss">略過</string>
+
+    <!-- 設定 -->
+    <string name="settings_theme">主題</string>
+    <string name="settings_theme_system">跟隨系統</string>
+    <string name="settings_theme_light">淺色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_theme_dynamic">動態取色</string>
+    <string name="settings_theme_oled">OLED 純黑</string>
+    <string name="settings_theme_morandi">莫蘭迪藍</string>
+    <string name="settings_abi">CPU 架構</string>
+    <string name="settings_abi_filter">如果可能，嘗試按 CPU 架構過濾 APK</string>
+    <string name="settings_abi_current">已偵測：%s</string>
+    <string name="settings_language">語言</string>
+    <string name="settings_language_system">跟隨系統</string>
+    <string name="settings_language_zh_tw">繁體中文</string>
+    <string name="settings_language_zh_cn">简体中文</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_ja">日本語</string>
+    <string name="settings_about">關於</string>
+    <string name="settings_about_version">YAOF v1.0</string>
+    <string name="settings_about_github">在 GitHub 上檢視</string>
+</resources>

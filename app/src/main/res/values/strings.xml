@@ -1,3 +1,71 @@
 <resources>
     <string name="app_name">YAOF</string>
+
+    <!-- Top Bar Titles -->
+    <string name="title_tracked">Apps</string>
+    <string name="title_add_source">Add App</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Update Checker UI -->
+    <string name="label_repo_input">owner/repo</string>
+    <string name="btn_check_update">Check Update</string>
+    <string name="btn_add_source">Add / Parse Source</string>
+    <string name="btn_add_to_tracking">Add to Tracking</string>
+    <string name="add_source_placeholder">e.g. owner/repo or paste URL</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_app_list">Apps</string>
+    <string name="tab_add_source">Add</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Tracked Apps -->
+    <string name="app_list_empty">No tracked apps yet.\nGo to the Add tab to search for an app.</string>
+    <string name="search_hint">Search apps…</string>
+    <string name="delete_dialog_title">Remove tracking</string>
+    <string name="delete_dialog_message">Stop tracking %s?</string>
+    <string name="delete_confirm">Remove</string>
+    <string name="delete_cancel">Cancel</string>
+    <string name="batch_selected_count">%d selected</string>
+    <string name="batch_delete_message">Delete %d apps?</string>
+    <string name="action_select_all">Select All</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Status Messages -->
+    <string name="msg_querying">Querying %s…</string>
+    <string name="error_invalid_format">Please enter the correct format: owner/repo</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_no_release">No release found for this repo</string>
+
+    <!-- Result Card -->
+    <string name="label_version">🏷️ Version</string>
+    <string name="label_apk_download">📦 APK Download</string>
+    <string name="label_file_size">File size: %s MB</string>
+    <string name="warn_no_apk">⚠️ No APK asset</string>
+    <string name="label_changelog">📝 Changelog</string>
+
+    <!-- Clipboard -->
+    <string name="clipboard_github_detected">Detected GitHub URL in clipboard. Fill it in?</string>
+    <string name="clipboard_action_fill">Fill</string>
+    <string name="clipboard_action_dismiss">Dismiss</string>
+
+    <!-- Settings -->
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_dynamic">Dynamic Color</string>
+    <string name="settings_theme_oled">OLED Black</string>
+    <string name="settings_theme_morandi">Morandi Blue</string>
+    <string name="settings_abi">CPU Architecture</string>
+    <string name="settings_abi_filter">Filter APK by CPU architecture if possible</string>
+    <string name="settings_abi_current">Detected: %s</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_system">Follow System</string>
+    <string name="settings_language_zh_tw">繁體中文</string>
+    <string name="settings_language_zh_cn">简体中文</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_ja">日本語</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_version">YAOF v1.0</string>
+    <string name="settings_about_github">View on GitHub</string>
 </resources>
